@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { BottomTabs } from "./components/BottomTabs";
 import { NavigationContainer } from "@react-navigation/native";
 import Splash from "./screens/login/Splash";
+import Login from "./screens/login/Login";
 export default function App() {
   const Drawer = createDrawerNavigator();
   const Tab = createBottomTabNavigator();
